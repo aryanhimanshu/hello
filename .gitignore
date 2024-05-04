@@ -1,0 +1,28 @@
+*.pyc
+*.log
+*.log~
+*.xml
+*.pdf
+*.pkl
+*.ini
+.DS_Store
+
+# mypy
+!mypy.ini
+
+# Editors
+.idea
+*.sublime-project
+*.sublime-workspace
+*.vscode
+
+# Project
+static/*
+logs/*
+env/
+.python-version
+venv/
+.venv/
+.coverage/
+.autogen/
+
